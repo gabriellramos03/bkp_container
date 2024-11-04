@@ -1,0 +1,401 @@
+[2024-10-31 12:09:01] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:09:03] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_120901.tar
+[2024-10-31 12:09:03] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:09:06] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_120901.tar.gz
+[2024-10-31 12:10:06] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:10:08] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121006.tar
+[2024-10-31 12:10:08] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:10:11] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121006.tar.gz
+[2024-10-31 12:10:11] Backup antigo de volume removido: wordpress_volume_backup_20241031_120901.tar.gz
+[2024-10-31 12:11:11] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:11:12] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121111.tar
+[2024-10-31 12:11:12] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:11:15] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121111.tar.gz
+[2024-10-31 12:11:15] Backup antigo de volume removido: wordpress_volume_backup_20241031_121101.tar.gz
+[2024-10-31 12:12:15] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:12:16] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121215.tar
+[2024-10-31 12:12:16] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:12:20] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121215.tar.gz
+[2024-10-31 12:13:20] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:13:21] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121320.tar
+[2024-10-31 12:13:21] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:13:27] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121320.tar.gz
+[2024-10-31 12:13:27] Backup antigo de container removido: wordpress_container_backup_20241031_121305.tar
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 78, in <module>
+    backup_container()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 44, in backup_container
+    manage_backups()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 57, in manage_backups
+    os.remove(os.path.join(BACKUP_DIR, old_backup))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121312.tar'
+[2024-10-31 12:11:01] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:11:03] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121101.tar
+[2024-10-31 12:11:03] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:11:08] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121101.tar.gz
+[2024-10-31 12:11:08] Backup antigo de container removido: wordpress_container_backup_20241031_121001.tar
+[2024-10-31 12:11:08] Backup antigo de container removido: wordpress_container_backup_20241031_121006.tar
+[2024-10-31 12:11:08] Backup antigo de volume removido: wordpress_volume_backup_20241031_121001.tar.gz
+[2024-10-31 12:12:08] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:12:09] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121208.tar
+[2024-10-31 12:12:09] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:12:12] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121208.tar.gz
+[2024-10-31 12:12:12] Backup antigo de container removido: wordpress_container_backup_20241031_121111.tar
+[2024-10-31 12:12:12] Backup antigo de volume removido: wordpress_volume_backup_20241031_121111.tar.gz
+[2024-10-31 12:13:12] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:13:13] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121312.tar
+[2024-10-31 12:13:13] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:13:16] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121312.tar.gz
+[2024-10-31 12:13:16] Backup antigo de container removido: wordpress_container_backup_20241031_121301.tar
+[2024-10-31 12:13:16] Backup antigo de volume removido: wordpress_volume_backup_20241031_121301.tar.gz
+[2024-10-31 12:14:16] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:14:18] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121416.tar
+[2024-10-31 12:14:18] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:14:21] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121416.tar.gz
+[2024-10-31 12:15:21] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:15:22] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121521.tar
+[2024-10-31 12:15:22] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:15:28] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121521.tar.gz
+[2024-10-31 12:15:28] Backup antigo de container removido: wordpress_container_backup_20241031_121501.tar
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 78, in <module>
+    backup_container()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 44, in backup_container
+    manage_backups()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 57, in manage_backups
+    os.remove(os.path.join(BACKUP_DIR, old_backup))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121506.tar'
+[2024-10-31 12:12:01] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:12:02] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121201.tar
+[2024-10-31 12:12:02] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:12:05] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121201.tar.gz
+[2024-10-31 12:12:05] Backup antigo de container removido: wordpress_container_backup_20241031_121106.tar
+[2024-10-31 12:12:05] Backup antigo de volume removido: wordpress_volume_backup_20241031_121106.tar.gz
+[2024-10-31 12:13:05] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:13:06] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121305.tar
+[2024-10-31 12:13:06] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:13:09] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121305.tar.gz
+[2024-10-31 12:13:09] Backup antigo de volume removido: wordpress_volume_backup_20241031_121215.tar.gz
+[2024-10-31 12:14:09] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:14:10] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121409.tar
+[2024-10-31 12:14:10] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:14:19] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121409.tar.gz
+[2024-10-31 12:14:19] Backup antigo de container removido: wordpress_container_backup_20241031_121407.tar
+[2024-10-31 12:14:19] Backup antigo de volume removido: wordpress_volume_backup_20241031_121407.tar.gz
+[2024-10-31 12:15:19] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:15:21] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121519.tar
+[2024-10-31 12:15:21] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:15:28] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121519.tar.gz
+[2024-10-31 12:15:28] Backup antigo de container removido: wordpress_container_backup_20241031_121506.tar
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 78, in <module>
+    backup_container()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 44, in backup_container
+    manage_backups()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 57, in manage_backups
+    os.remove(os.path.join(BACKUP_DIR, old_backup))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121516.tar'
+[2024-10-31 12:15:01] Iniciando backup do banco de dados externo...
+[2024-10-31 12:15:04] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121501.sql
+[2024-10-31 12:15:04] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121401.sql
+[2024-10-31 12:16:04] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:10] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121604.sql
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 49, in <module>
+    backup_external_database()
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 32, in backup_external_database
+    os.remove(f"{db_backup_file}.err")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121604.sql.err'
+[2024-10-31 12:14:01] Iniciando backup do banco de dados externo...
+[2024-10-31 12:14:05] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121401.sql
+[2024-10-31 12:14:05] Backup antigo de banco de dados removido: external_postgres_backup_20241031_115959.sql
+[2024-10-31 12:14:05] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121301.sql
+[2024-10-31 12:15:05] Iniciando backup do banco de dados externo...
+[2024-10-31 12:15:11] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121505.sql
+[2024-10-31 12:16:11] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:21] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121611.sql
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 49, in <module>
+    backup_external_database()
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 32, in backup_external_database
+    os.remove(f"{db_backup_file}.err")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121611.sql.err'
+[2024-10-31 12:13:01] Iniciando backup do banco de dados externo...
+[2024-10-31 12:13:04] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121301.sql
+[2024-10-31 12:13:04] Backup antigo de banco de dados removido: external_postgres_backup_20241031_115857.sql
+[2024-10-31 12:14:04] Iniciando backup do banco de dados externo...
+[2024-10-31 12:14:07] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121404.sql
+[2024-10-31 12:15:07] Iniciando backup do banco de dados externo...
+[2024-10-31 12:15:11] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121507.sql
+[2024-10-31 12:15:11] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121404.sql
+[2024-10-31 12:15:11] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121501.sql
+[2024-10-31 12:16:11] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:21] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121611.sql
+[2024-10-31 12:16:21] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121610.sql
+[2024-10-31 12:17:21] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:27] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121721.sql
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 49, in <module>
+    backup_external_database()
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 32, in backup_external_database
+    os.remove(f"{db_backup_file}.err")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121721.sql.err'
+[2024-10-31 12:16:01] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:04] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121601.sql
+[2024-10-31 12:16:04] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121505.sql
+[2024-10-31 12:16:04] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121507.sql
+[2024-10-31 12:16:04] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:10] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121604.sql
+[2024-10-31 12:16:10] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:18] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121610.sql
+[2024-10-31 12:16:18] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121601.sql
+[2024-10-31 12:16:18] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121604.sql
+[2024-10-31 12:16:18] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:23] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121618.sql
+[2024-10-31 12:16:23] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:26] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121623.sql
+[2024-10-31 12:16:26] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121611.sql
+[2024-10-31 12:16:26] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:29] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121626.sql
+[2024-10-31 12:16:29] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121618.sql
+[2024-10-31 12:16:29] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:33] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121629.sql
+[2024-10-31 12:16:33] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121623.sql
+[2024-10-31 12:16:33] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:37] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121633.sql
+[2024-10-31 12:16:37] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121626.sql
+[2024-10-31 12:16:37] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:40] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121637.sql
+[2024-10-31 12:16:40] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121629.sql
+[2024-10-31 12:16:40] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:44] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121640.sql
+[2024-10-31 12:16:44] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121633.sql
+[2024-10-31 12:16:44] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:47] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121644.sql
+[2024-10-31 12:16:47] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121637.sql
+[2024-10-31 12:16:47] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:52] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121647.sql
+[2024-10-31 12:16:52] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121640.sql
+[2024-10-31 12:16:52] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:56] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121652.sql
+[2024-10-31 12:16:56] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121644.sql
+[2024-10-31 12:16:56] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:59] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121656.sql
+[2024-10-31 12:16:59] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121647.sql
+[2024-10-31 12:16:59] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:02] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121659.sql
+[2024-10-31 12:17:02] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121652.sql
+[2024-10-31 12:17:02] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:05] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121702.sql
+[2024-10-31 12:17:05] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121656.sql
+[2024-10-31 12:17:05] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:08] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121705.sql
+[2024-10-31 12:17:08] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121659.sql
+[2024-10-31 12:17:08] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:13] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121708.sql
+[2024-10-31 12:17:13] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121702.sql
+[2024-10-31 12:17:13] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:17] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121713.sql
+[2024-10-31 12:17:17] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121705.sql
+[2024-10-31 12:17:17] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:21] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121717.sql
+[2024-10-31 12:17:21] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121708.sql
+[2024-10-31 12:17:21] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:26] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121721.sql
+[2024-10-31 12:17:26] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121713.sql
+[2024-10-31 12:17:26] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:30] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121726.sql
+[2024-10-31 12:17:30] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121717.sql
+[2024-10-31 12:17:30] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:35] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121730.sql
+[2024-10-31 12:17:35] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121721.sql
+[2024-10-31 12:17:35] Iniciando backup do banco de dados externo...
+[2024-10-31 12:16:01] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:02] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121601.tar
+[2024-10-31 12:16:02] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:16:10] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121601.tar.gz
+[2024-10-31 12:16:10] Backup antigo de container removido: wordpress_container_backup_20241031_121521.tar
+[2024-10-31 12:16:10] Backup antigo de container removido: wordpress_container_backup_20241031_121535.tar
+[2024-10-31 12:16:10] Backup antigo de volume removido: wordpress_volume_backup_20241031_121521.tar.gz
+[2024-10-31 12:16:10] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:11] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121610.tar
+[2024-10-31 12:16:11] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:16:34] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121610.tar.gz
+[2024-10-31 12:16:34] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:36] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121634.tar
+[2024-10-31 12:16:36] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:16:47] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121634.tar.gz
+[2024-10-31 12:16:47] Backup antigo de container removido: wordpress_container_backup_20241031_121628.tar
+[2024-10-31 12:16:47] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:48] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121647.tar
+[2024-10-31 12:16:48] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:16:57] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121647.tar.gz
+[2024-10-31 12:16:57] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:57] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121657.tar
+[2024-10-31 12:16:57] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:17:04] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121657.tar.gz
+[2024-10-31 12:17:04] Backup antigo de container removido: wordpress_container_backup_20241031_121640.tar
+[2024-10-31 12:17:04] Backup antigo de volume removido: wordpress_volume_backup_20241031_121640.tar.gz
+[2024-10-31 12:17:04] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:17:05] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121704.tar
+[2024-10-31 12:17:05] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:17:10] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121704.tar.gz
+[2024-10-31 12:17:10] Backup antigo de container removido: wordpress_container_backup_20241031_121647.tar
+[2024-10-31 12:17:10] Backup antigo de volume removido: wordpress_volume_backup_20241031_121647.tar.gz
+[2024-10-31 12:17:10] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:17:12] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121710.tar
+[2024-10-31 12:17:12] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:17:16] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121710.tar.gz
+[2024-10-31 12:17:16] Backup antigo de container removido: wordpress_container_backup_20241031_121657.tar
+[2024-10-31 12:17:16] Backup antigo de volume removido: wordpress_volume_backup_20241031_121657.tar.gz
+[2024-10-31 12:17:16] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:17:17] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121716.tar
+[2024-10-31 12:17:17] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:17:23] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121716.tar.gz
+[2024-10-31 12:17:23] Backup antigo de container removido: wordpress_container_backup_20241031_121704.tar
+[2024-10-31 12:17:23] Backup antigo de volume removido: wordpress_volume_backup_20241031_121704.tar.gz
+[2024-10-31 12:17:23] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:17:24] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121723.tar
+[2024-10-31 12:17:24] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:17:54] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121723.tar.gz
+[2024-10-31 12:17:54] Backup antigo de container removido: wordpress_container_backup_20241031_121710.tar
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 78, in <module>
+    backup_container()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 44, in backup_container
+    manage_backups()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 57, in manage_backups
+    os.remove(os.path.join(BACKUP_DIR, old_backup))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121716.tar'
+[2024-10-31 12:17:38] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121735.sql
+[2024-10-31 12:17:38] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121726.sql
+[2024-10-31 12:17:38] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:43] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121738.sql
+[2024-10-31 12:17:43] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121730.sql
+[2024-10-31 12:17:43] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:47] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121743.sql
+[2024-10-31 12:17:47] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121735.sql
+[2024-10-31 12:17:47] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:50] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121747.sql
+[2024-10-31 12:17:50] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121738.sql
+[2024-10-31 12:17:50] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:54] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121750.sql
+[2024-10-31 12:17:54] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121743.sql
+[2024-10-31 12:17:54] Iniciando backup do banco de dados externo...
+[2024-10-31 12:17:59] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121754.sql
+[2024-10-31 12:17:59] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121747.sql
+[2024-10-31 12:17:59] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:02] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121759.sql
+[2024-10-31 12:18:02] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121750.sql
+[2024-10-31 12:18:02] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:05] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121802.sql
+[2024-10-31 12:18:05] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121754.sql
+[2024-10-31 12:18:05] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:08] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121805.sql
+[2024-10-31 12:18:08] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121759.sql
+[2024-10-31 12:18:08] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:11] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121808.sql
+[2024-10-31 12:18:11] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121802.sql
+[2024-10-31 12:18:11] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:14] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121811.sql
+[2024-10-31 12:18:14] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121805.sql
+[2024-10-31 12:18:14] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:17] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121814.sql
+[2024-10-31 12:18:17] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121808.sql
+[2024-10-31 12:18:17] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:19] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121817.sql
+[2024-10-31 12:18:19] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121811.sql
+[2024-10-31 12:18:19] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:23] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121819.sql
+[2024-10-31 12:18:23] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121814.sql
+[2024-10-31 12:18:23] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:26] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121823.sql
+[2024-10-31 12:18:26] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121817.sql
+[2024-10-31 12:18:26] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:29] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121826.sql
+[2024-10-31 12:18:29] Backup antigo de banco de dados removido: external_postgres_backup_20241031_121819.sql
+[2024-10-31 12:18:29] Iniciando backup do banco de dados externo...
+[2024-10-31 12:18:32] Backup do banco de dados externo concluído e salvo em /home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121829.sql
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 49, in <module>
+    backup_external_database()
+  File "/home/gabriel/projects/bkp_container/export_db.py", line 32, in backup_external_database
+    os.remove(f"{db_backup_file}.err")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_db/external_postgres_backup_20241031_121829.sql.err'
+[2024-10-31 12:10:01] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:10:03] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121001.tar
+[2024-10-31 12:10:03] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:10:06] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121001.tar.gz
+[2024-10-31 12:10:06] Backup antigo de container removido: wordpress_container_backup_20241031_120901.tar
+[2024-10-31 12:11:06] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:11:08] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121106.tar
+[2024-10-31 12:11:08] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:11:13] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121106.tar.gz
+[2024-10-31 12:11:13] Backup antigo de container removido: wordpress_container_backup_20241031_121101.tar
+[2024-10-31 12:11:13] Backup antigo de volume removido: wordpress_volume_backup_20241031_121006.tar.gz
+[2024-10-31 12:12:13] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:12:14] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121213.tar
+[2024-10-31 12:12:14] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:12:19] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121213.tar.gz
+[2024-10-31 12:12:19] Backup antigo de container removido: wordpress_container_backup_20241031_121201.tar
+[2024-10-31 12:12:19] Backup antigo de container removido: wordpress_container_backup_20241031_121208.tar
+[2024-10-31 12:12:19] Backup antigo de volume removido: wordpress_volume_backup_20241031_121201.tar.gz
+[2024-10-31 12:12:19] Backup antigo de volume removido: wordpress_volume_backup_20241031_121208.tar.gz
+[2024-10-31 12:13:19] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:13:20] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121319.tar
+[2024-10-31 12:13:20] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:13:27] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121319.tar.gz
+[2024-10-31 12:13:27] Backup antigo de container removido: wordpress_container_backup_20241031_121312.tar
+[2024-10-31 12:13:27] Backup antigo de volume removido: wordpress_volume_backup_20241031_121305.tar.gz
+[2024-10-31 12:13:27] Backup antigo de volume removido: wordpress_volume_backup_20241031_121312.tar.gz
+[2024-10-31 12:14:27] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:14:28] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121427.tar
+[2024-10-31 12:14:28] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:14:35] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121427.tar.gz
+[2024-10-31 12:14:35] Backup antigo de container removido: wordpress_container_backup_20241031_121409.tar
+[2024-10-31 12:14:35] Backup antigo de volume removido: wordpress_volume_backup_20241031_121409.tar.gz
+[2024-10-31 12:15:35] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:15:36] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121535.tar
+[2024-10-31 12:15:36] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:15:40] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121535.tar.gz
+[2024-10-31 12:15:40] Backup antigo de container removido: wordpress_container_backup_20241031_121519.tar
+[2024-10-31 12:15:40] Backup antigo de volume removido: wordpress_volume_backup_20241031_121519.tar.gz
+[2024-10-31 12:16:40] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:16:44] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121640.tar
+[2024-10-31 12:16:44] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:16:54] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121640.tar.gz
+[2024-10-31 12:16:54] Backup antigo de container removido: wordpress_container_backup_20241031_121634.tar
+[2024-10-31 12:16:54] Backup antigo de volume removido: wordpress_volume_backup_20241031_121628.tar.gz
+[2024-10-31 12:16:54] Backup antigo de volume removido: wordpress_volume_backup_20241031_121634.tar.gz
+[2024-10-31 12:17:54] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:17:58] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121754.tar
+[2024-10-31 12:17:58] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:18:07] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121754.tar.gz
+[2024-10-31 12:19:07] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:19:08] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_121907.tar
+[2024-10-31 12:19:08] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:19:11] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_121907.tar.gz
+[2024-10-31 12:20:11] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:20:12] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_122011.tar
+[2024-10-31 12:20:12] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:20:18] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_122011.tar.gz
+[2024-10-31 12:20:18] Backup antigo de container removido: wordpress_container_backup_20241031_121907.tar
+[2024-10-31 12:20:18] Backup antigo de container removido: wordpress_container_backup_20241031_122000.tar
+[2024-10-31 12:20:18] Backup antigo de volume removido: wordpress_volume_backup_20241031_121907.tar.gz
+[2024-10-31 12:20:18] Backup antigo de volume removido: wordpress_volume_backup_20241031_122000.tar.gz
+[2024-10-31 12:21:18] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:21:20] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_122118.tar
+[2024-10-31 12:21:20] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:21:23] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_122118.tar.gz
+[2024-10-31 12:22:23] Iniciando backup do container bkp_container-wordpress-1...
+[2024-10-31 12:22:25] Backup do container concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_122223.tar
+[2024-10-31 12:22:25] Iniciando backup do volume wordpress_data...
+[2024-10-31 12:22:29] Backup do volume concluído e salvo em /home/gabriel/projects/bkp_container/backup_container/wordpress_volume_backup_20241031_122223.tar.gz
+Traceback (most recent call last):
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 78, in <module>
+    backup_container()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 44, in backup_container
+    manage_backups()
+  File "/home/gabriel/projects/bkp_container/export_container.py", line 57, in manage_backups
+    os.remove(os.path.join(BACKUP_DIR, old_backup))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gabriel/projects/bkp_container/backup_container/wordpress_container_backup_20241031_122129.tar'
